@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fadeScrollbars="true"
+    android:scrollbarSize="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/pictrue"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="40dp"
+                android:src="@drawable/ic_launcher_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.example.cardictionary.ui.choice.ChoiceItem
+                android:id="@+id/choiceItem1"
+                app:itemNumber="1"
+                android:layout_width="343dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/questionTextView"
+                app:nameIcon="@drawable/ic_icona" />
+
+            <com.example.cardictionary.ui.choice.ChoiceItem
+                android:id="@+id/choiceItem2"
+                app:itemNumber="2"
+                android:layout_width="343dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="@+id/choiceItem1"
+                app:layout_constraintTop_toBottomOf="@+id/choiceItem1"
+                app:nameIcon="@drawable/ic_iconb" />
+
+            <com.example.cardictionary.ui.choice.ChoiceItem
+                android:id="@+id/choiceItem4"
+                app:itemNumber="4"
+                android:layout_width="343dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="@+id/choiceItem3"
+                app:layout_constraintTop_toBottomOf="@+id/choiceItem3"
+                app:nameIcon="@drawable/ic_icond" />
+
+            <com.example.cardictionary.ui.choice.ChoiceItem
+                android:id="@+id/choiceItem3"
+                app:itemNumber="3"
+                android:layout_width="343dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="@+id/choiceItem2"
+                app:layout_constraintTop_toBottomOf="@+id/choiceItem2"
+                app:nameIcon="@drawable/ic_iconc" />
+
+            <TextView
+                android:id="@+id/questionTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="20dp"
+                android:text="TextView"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pictrue" />
+
+            <TextView
+                android:id="@+id/answerTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/answer_text_view_bg"
+                android:padding="10dp"
+                android:text="TextView"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/choiceItem4"
+                app:layout_constraintTop_toBottomOf="@+id/tips" />
+
+            <TextView
+                android:id="@+id/tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/km_bg"
+                android:padding="10dp"
+                android:visibility="invisible"
+                android:text="TextView"
+                app:layout_constraintStart_toStartOf="@+id/choiceItem4"
+                app:layout_constraintTop_toBottomOf="@+id/choiceItem4" />
+
+            <TextView
+                android:id="@+id/nextQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/red_bg"
+                android:padding="10dp"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="下 一 题"
+                android:textColor="#F63D30"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/tips"
+                app:layout_constraintStart_toEndOf="@+id/tips"
+                app:layout_constraintTop_toTopOf="@+id/tips" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>
+

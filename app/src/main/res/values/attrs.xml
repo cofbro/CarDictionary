@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChoiceItem">
+        <attr name="firstQ" format="reference|string"/>
+        <attr name="secondQ" format="reference|string"/>
+        <attr name="thirdQ" format="reference|string"/>
+        <attr name="fourthQ" format="reference|string"/>
+        <attr name="multiply" format="boolean"/>
+        <attr name="nameIcon" format="reference"/>
+        <attr name="itemNumber" format="integer"/>
+    </declare-styleable>
+</resources>

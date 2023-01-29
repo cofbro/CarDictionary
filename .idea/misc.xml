@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ans_text_view_gray_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ans_text_view_white_bg.xml" value="0.226" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/answer_text_view_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/gallery_blue_to_white_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/gradient_blue_corner_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/gradient_red_corner_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/gray_corner_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_a.xml" value="0.1145" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_arrow_right.xml" value="0.226" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_drop_down.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_icona.xml" value="0.226" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_iconc.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_icond.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_km1.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_km2.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_km3.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1145" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_onlin_exam.xml" value="0.226" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/ic_selected.xml" value="0.1555" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/km_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/no_border_shape.xml" value="0.156" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/pre_exam_tip.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/red_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/round_shape_bg.xml" value="0.149" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/shape.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/tab_indicator.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/theme1_round_corner_bg.xml" value="0.1555" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/theme2_round_corner_bg.xml" value="0.1555" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/white_corner_bg.xml" value="0.226" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/drawable/white_corner_with_stroke_bg.xml" value="0.155" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/app_bar_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/card_game_item.xml" value="0.2453125" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/content_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/faile_exam_tip.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_change_skin.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_choice.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_gallery.xml" value="0.264" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_game_question.xml" value="0.1" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_login.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_online_exam.xml" value="0.264" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_recite.xml" value="0.23177083333333334" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_redo.xml" value="0.264" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_registry.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_slideshow.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/fragment_wrong_topic.xml" value="0.184765625" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/item_layout.xml" value="0.25" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/message_list_layout.xml" value="0.264" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/nav_header_main.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/online_exam_layout.xml" value="0.184765625" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/pre_exam_tip.xml" value="0.264" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/recite_item_layout.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/submit_page_tip.xml" value="0.2453125" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/sure_clean_tip.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/layout/wrong_topic_layout.xml" value="0.264" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/menu/activity_main_drawer.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/menu/main.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/menu/order_menu.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.156" />
+        <entry key="..\:/exercise/CarDictionary/app/src/main/res/xml/file_paths.xml" value="0.24635416666666668" />
+        <entry key="..\:/exercise/CarDictionary/skin/src/main/res/drawable/ic_km1.xml" value="0.2275" />
+        <entry key="..\:/exercise/CarDictionary/skin/src/main/res/drawable/km_bg.xml" value="0.1555" />
+        <entry key="..\:/exercise/CarDictionary/skin/src/main/res/drawable/no_border_shape.xml" value="0.1555" />
+        <entry key="..\:/exercise/CarDictionary/skin/src/main/res/drawable/side_nav_bar.xml" value="0.1555" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

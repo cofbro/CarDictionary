@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cardictionary.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_choiceFragment"
+            app:destination="@id/choiceFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_onlineExamFragment"
+            app:destination="@id/onlineExamFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_gameQuestionFragment"
+            app:destination="@id/gameQuestionFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.cardictionary.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_to_wrongTopicFragment"
+            app:destination="@id/wrongTopicFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.cardictionary.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_changeSkinFragment"
+            app:destination="@id/changeSkinFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/choiceFragment"
+        android:name="com.example.cardictionary.ui.choice.ChoiceFragment"
+        android:label="练习"
+        tools:layout="@layout/fragment_choice" >
+        <argument
+            android:name="type"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/onlineExamFragment"
+        android:name="com.example.cardictionary.ui.onlineexam.OnlineExamFragment"
+        android:label="模拟考试"
+        tools:layout="@layout/fragment_online_exam" >
+        <argument
+            android:name="type"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/wrongTopicFragment"
+        android:name="com.example.cardictionary.ui.gallery.topic.WrongTopicFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_wrong_topic" >
+        <argument
+            android:name="located"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_wrongTopicFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.cardictionary.ui.login.LoginFragment"
+        android:label="登录"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registryFragment"
+            app:destination="@id/registryFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/registryFragment"
+        android:name="com.example.cardictionary.ui.registry.RegistryFragment"
+        android:label="注册"
+        tools:layout="@layout/fragment_registry" />
+    <fragment
+        android:id="@+id/gameQuestionFragment"
+        android:name="com.example.cardictionary.ui.game.GameQuestionFragment"
+        android:label="每日一笑"
+        tools:layout="@layout/fragment_game_question" />
+    <dialog
+        android:id="@+id/changeSkinFragment"
+        android:name="com.example.cardictionary.ui.onlineexam.skin.ChangeSkinFragment"
+        android:label="设置主题"
+        tools:layout="@layout/fragment_change_skin">
+
+        <action
+            android:id="@+id/action_changeSkinFragment_to_nav_slideshow"
+            app:destination="@id/nav_slideshow"
+            app:popUpTo="@id/changeSkinFragment"
+            app:popUpToInclusive="true" />
+    </dialog>
+</navigation>
